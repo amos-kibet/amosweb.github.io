@@ -16,8 +16,43 @@
         }
     </style>
 </head>
-<body class="jumbotron bg-info">
-&nbsp;<a class="bg-dark container container-fluid" href="index.html">Home</a>
+<body class="jumbotron" data-spy="scroll" data-target="#navbarResponsive">
+<nav class="navbar navbar-expand-md navbar-dark bg-info fixed-top">
+   <div>
+       <a href="#home" class="navbar-brand"><img src="logo/mylogo2.png" alt="logo" width="150" height="60"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+   </div>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 text-black">
+            <li class="nav-item">
+                <a href="#home" class="nav-link">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="about.html" class="nav-link">About Amozone</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="gallery.html" class="nav-link">Gallery</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#portfolio" class="nav-link">Our Portfolio</a>
+            <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact Us</a>
+            </li>
+        </ul>
+        <form action="#" class="form-inline my-2 my-lg-0">
+            <input type="search" placeholder="Search anything..." class="form-control mr-sm-2">
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+
+    </div>
+
+</nav>
+<br><br><br><br><br>
 <div class="container container-fluid">
 <h4 class="display-4 text-white">Welcome to our gallery.
     We have compiled some cool pictures to make sure you have fun as you navigate through our website <br>
